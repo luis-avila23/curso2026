@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(menu.css);
+@import url(quienes-somos.css);
+@import url(servicios.css);
+@import url(footer.css);
+*,*::before, *::after{
+    box-sizing: border-box; /*evita que las cajas se desborden*/
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color: #31AAA9;
+    --secundary-color: #F8E0A4;
+    --blue-light: #A82020;
+    --yellow-light: #6C1A1A;
+    --white: #ffff;
+    --black: #000000;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--white);
+    font-family: "Poppins", sans-serif;/*se llama ala tipografia*/
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+    padding: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;/*transforma el texto mayuscula*/
+}
+
+/*listas*/
+ul{ 
+    list-style: none;
+}
+
+/*enlaces*/
+a{
+    color: var(--blue-light);
+    text-decoration: none;
+}
+
+.container h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.pd-30{
+    padding: 30px;
+}
